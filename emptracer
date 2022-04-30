@@ -13,7 +13,7 @@
 
 ]]
 
-local EmpNotif = loadstring(game:HttpGet("https://pastebin.com/raw/iFwSWa35"))();
+local EmpNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/empwashere/zzz/main/notifications"))();
 local Notify = EmpNotif.Notify;
 
 
