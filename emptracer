@@ -21,7 +21,7 @@ local Notify = EmpNotif.Notify;
 local new = { 
     main = { 
         Emplmfao = true,
-        Prediction = 0.13,
+        Prediction = 0.1224,
         Part = "HumanoidRootPart", 
         Key = "x",
         Notifications = true,
@@ -51,7 +51,7 @@ Mouse.KeyDown:Connect(function(KeyPressed)
             		Notify({
   					Description = "unlocked";
 					Title = "emp#0006";
-					Duration = 5;
+					Duration = 2;
 					
                 })
             end
@@ -62,7 +62,7 @@ Mouse.KeyDown:Connect(function(KeyPressed)
  				Notify({
 					Description = "locked onto "..tostring(Plr.Character.Humanoid.DisplayName);
 					Title = "emp#0006";
-					Duration = 5;
+					Duration = 2;
 			
                 })
             end
