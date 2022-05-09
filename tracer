@@ -37,7 +37,7 @@ Mouse.KeyDown:Connect(function(KeyPressed)
                 Plr = FindClosestUser()
             		Notify({
   					Description = "unlocked";
-					Title = "emp#0006";
+					Title = "";
 					Duration = 2;
 					
                 })
@@ -48,7 +48,7 @@ Mouse.KeyDown:Connect(function(KeyPressed)
             if new.main.Notifications == true then
  				Notify({
 					Description = "locked onto "..tostring(Plr.Character.Humanoid.DisplayName);
-					Title = "emp#0006";
+					Title = "";
 					Duration = 2;
 			
                 })
