@@ -1,6 +1,6 @@
 
 
-local EmpNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/empwashere/zzz/main/notifications"))();
+local EmpNotif = loadstring(game:HttpGet("https://raw.githubusercontent.com/godware123/zzz/main/notifications"))();
 local Notify = EmpNotif.Notify;
 
 
@@ -37,7 +37,7 @@ Mouse.KeyDown:Connect(function(KeyPressed)
                 Plr = FindClosestUser()
             		Notify({
   					Description = "unlocked";
-					Title = "";
+					Title = "emp";
 					Duration = 2;
 					
                 })
@@ -48,7 +48,7 @@ Mouse.KeyDown:Connect(function(KeyPressed)
             if new.main.Notifications == true then
  				Notify({
 					Description = "locked onto "..tostring(Plr.Character.Humanoid.DisplayName);
-					Title = "";
+					Title = "emp";
 					Duration = 2;
 			
                 })
